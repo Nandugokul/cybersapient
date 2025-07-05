@@ -1,4 +1,11 @@
+import CarDetails from "@/components/CarDetails";
+
 function Home() {
-  return <div className="text-blue-300">hehehe</div>;
+  return (
+    <div className="min-h-screen bg-background pt-20">
+      <CarDetails />
+    </div>
+  );
 }
+
 export default Home;
