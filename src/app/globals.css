@@ -118,3 +118,29 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Custom carousel styles */
+.benefits-carousel {
+  overflow: visible !important;
+}
+
+.benefits-carousel .slick-list {
+  overflow: visible !important;
+}
+
+.benefits-carousel .slick-track {
+  overflow: visible !important;
+}
+
+.benefits-carousel .slick-dots {
+  bottom: -40px;
+}
+
+.benefits-carousel .slick-dots li button:before {
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.benefits-carousel .slick-dots li.slick-active button:before {
+  color: #3b82f6;
+}
